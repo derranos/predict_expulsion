@@ -29,7 +29,7 @@ def prepare_student_info():
         lambda x: int(x == 'Y')
     )
     student_info['final_result'] = student_info['final_result'].apply(
-        lambda x: int(x == 'Withdrawn')
+        lambda x: int(x == 'Withdrawn' or x == 'Fail')
     )
     student_info = pd.get_dummies(
         student_info,

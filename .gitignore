@@ -1,3 +1,5 @@
 /data/raw_data/**
 /data/processed_data/**
 /AGENTS.md
+__pycache__/
+/mlp/learning/mlp_best.pth

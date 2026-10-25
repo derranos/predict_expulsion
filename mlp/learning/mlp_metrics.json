@@ -1,0 +1,14 @@
+{
+  "best_params": {
+    "hidden_dim": 256,
+    "n_layers": 2,
+    "dropout": 0.5,
+    "lr": 0.0001,
+    "batch_size": 32
+  },
+  "best_validation_loss": 0.545111392553036,
+  "test_loss": 0.5567553634825851,
+  "test_accuracy": 0.7131522000480884,
+  "test_roc_auc": 0.7798138856887817,
+  "test_recall_at_top_20": 0.3712
+}
